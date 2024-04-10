@@ -14,6 +14,7 @@
 		A2259E3D2BC57CBB00B96A57 /* FrostyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2259E3C2BC57CBB00B96A57 /* FrostyView.swift */; };
 		A2259E3F2BC68F2E00B96A57 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2259E3E2BC68F2E00B96A57 /* GradientView.swift */; };
 		A2259E412BC6960200B96A57 /* ButtonsAndImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2259E402BC6960200B96A57 /* ButtonsAndImagesView.swift */; };
+		A289DD4C2BC6C708000C9694 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A289DD4B2BC6C708000C9694 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A2259E3C2BC57CBB00B96A57 /* FrostyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostyView.swift; sourceTree = "<group>"; };
 		A2259E3E2BC68F2E00B96A57 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		A2259E402BC6960200B96A57 /* ButtonsAndImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsAndImagesView.swift; sourceTree = "<group>"; };
+		A289DD4B2BC6C708000C9694 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +43,9 @@
 		A2259E222BC574B300B96A57 = {
 			isa = PBXGroup;
 			children = (
+				A289DD4B2BC6C708000C9694 /* AlertView.swift */,
 				A2259E402BC6960200B96A57 /* ButtonsAndImagesView.swift */,
-				A2259E2D2BC574B400B96A57 /* GuessTheFlag */,
+				A2259E2D2BC574B400B96A57 /* UIControls */,
 				A2259E2C2BC574B400B96A57 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +58,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A2259E2D2BC574B400B96A57 /* GuessTheFlag */ = {
+		A2259E2D2BC574B400B96A57 /* UIControls */ = {
 			isa = PBXGroup;
 			children = (
 				A2259E2E2BC574B400B96A57 /* GuessTheFlagApp.swift */,
@@ -65,7 +68,7 @@
 				A2259E3C2BC57CBB00B96A57 /* FrostyView.swift */,
 				A2259E3E2BC68F2E00B96A57 /* GradientView.swift */,
 			);
-			path = GuessTheFlag;
+			path = UIControls;
 			sourceTree = "<group>";
 		};
 		A2259E342BC574BC00B96A57 /* Preview Content */ = {
@@ -111,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2259E262BC574B300B96A57 /* Build configuration list for PBXProject "GuessTheFlag" */;
+			buildConfigurationList = A2259E262BC574B300B96A57 /* Build configuration list for PBXProject "UIControls" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,6 +154,7 @@
 				A2259E3F2BC68F2E00B96A57 /* GradientView.swift in Sources */,
 				A2259E412BC6960200B96A57 /* ButtonsAndImagesView.swift in Sources */,
 				A2259E3D2BC57CBB00B96A57 /* FrostyView.swift in Sources */,
+				A289DD4C2BC6C708000C9694 /* AlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2259E262BC574B300B96A57 /* Build configuration list for PBXProject "GuessTheFlag" */ = {
+		A2259E262BC574B300B96A57 /* Build configuration list for PBXProject "UIControls" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2259E372BC574BC00B96A57 /* Debug */,
