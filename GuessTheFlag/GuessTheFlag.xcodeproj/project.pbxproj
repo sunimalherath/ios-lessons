@@ -12,6 +12,7 @@
 		A2259E332BC574BC00B96A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2259E322BC574BC00B96A57 /* Assets.xcassets */; };
 		A2259E362BC574BC00B96A57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2259E352BC574BC00B96A57 /* Preview Assets.xcassets */; };
 		A2259E3D2BC57CBB00B96A57 /* FrostyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2259E3C2BC57CBB00B96A57 /* FrostyView.swift */; };
+		A2259E3F2BC68F2E00B96A57 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2259E3E2BC68F2E00B96A57 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A2259E322BC574BC00B96A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2259E352BC574BC00B96A57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2259E3C2BC57CBB00B96A57 /* FrostyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostyView.swift; sourceTree = "<group>"; };
+		A2259E3E2BC68F2E00B96A57 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				A2259E322BC574BC00B96A57 /* Assets.xcassets */,
 				A2259E342BC574BC00B96A57 /* Preview Content */,
 				A2259E3C2BC57CBB00B96A57 /* FrostyView.swift */,
+				A2259E3E2BC68F2E00B96A57 /* GradientView.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				A2259E312BC574B400B96A57 /* ContentView.swift in Sources */,
 				A2259E2F2BC574B400B96A57 /* GuessTheFlagApp.swift in Sources */,
+				A2259E3F2BC68F2E00B96A57 /* GradientView.swift in Sources */,
 				A2259E3D2BC57CBB00B96A57 /* FrostyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
