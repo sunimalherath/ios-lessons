@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var useRedText = false
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -22,6 +24,8 @@ struct ContentView: View {
                 .background(.yellow)
                 .padding()
                 .background(.green)
+            Text("Change text color based on the state")
+                .foregroundStyle(useRedText ? .red : .yellow)
         }
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
         .background(.teal)
