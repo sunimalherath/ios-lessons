@@ -9,13 +9,18 @@ import SwiftUI
 
 struct CompositionView: View {
     var body: some View {
-        Text("First Text View")
-            .font(.largeTitle)
-            .padding()
-            .foregroundStyle(.white)
-            .background(.teal)
-            .clipShape(.capsule)
-        Text("Second Text View")
+        VStack {
+            CapsuleText(text: "First text view")
+            CapsuleText(text: "Second text view")
+        }
+    }
+}
+
+struct CapsuleText: View {
+    var text: String
+    
+    var body: some View {
+        Text(text)
             .font(.largeTitle)
             .padding()
             .foregroundStyle(.white)
