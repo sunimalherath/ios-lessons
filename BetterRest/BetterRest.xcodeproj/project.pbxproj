@@ -13,6 +13,7 @@
 		A281A87A2BDA86D200E5A202 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A281A8792BDA86D200E5A202 /* Preview Assets.xcassets */; };
 		A281A8812BDE810D00E5A202 /* DateComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281A8802BDE810D00E5A202 /* DateComponent.swift */; };
 		A281A8852BE50F8500E5A202 /* SampleControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281A8842BE50F8500E5A202 /* SampleControls.swift */; };
+		A281A8872BE9072400E5A202 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A281A8862BE9072400E5A202 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A281A8792BDA86D200E5A202 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A281A8802BDE810D00E5A202 /* DateComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponent.swift; sourceTree = "<group>"; };
 		A281A8842BE50F8500E5A202 /* SampleControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleControls.swift; sourceTree = "<group>"; };
+		A281A8862BE9072400E5A202 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = ../../Resources/BetterRest/SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A281A8722BDA86CD00E5A202 /* BetterRestApp.swift */,
 				A281A8742BDA86CD00E5A202 /* ContentView.swift */,
+				A281A8862BE9072400E5A202 /* SleepCalculator.mlmodel */,
 				A281A8762BDA86D200E5A202 /* Assets.xcassets */,
 				A281A8782BDA86D200E5A202 /* Preview Content */,
 				A281A8842BE50F8500E5A202 /* SampleControls.swift */,
@@ -146,6 +149,7 @@
 				A281A8752BDA86CD00E5A202 /* ContentView.swift in Sources */,
 				A281A8852BE50F8500E5A202 /* SampleControls.swift in Sources */,
 				A281A8812BDE810D00E5A202 /* DateComponent.swift in Sources */,
+				A281A8872BE9072400E5A202 /* SleepCalculator.mlmodel in Sources */,
 				A281A8732BDA86CD00E5A202 /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
