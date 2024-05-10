@@ -9,13 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List{
-            Text("Static Row 1")
-            Text("Static Row 2")
-            ForEach(0..<10) {
-                Text("Dynamic stuff \($0)")
-            }
-            Text("Static Row 3")
+        List(0..<10) {
+            Text("Fully dynamic list - row \($0)")
         }
     }
 }
