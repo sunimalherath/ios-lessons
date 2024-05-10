@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    
     var body: some View {
-        List(0..<10) {
-            Text("Fully dynamic list - row \($0)")
+        List(days, id: \.self) {
+            Text($0)
         }
     }
 }
