@@ -8,20 +8,46 @@
 import SwiftUI
 
 struct ContentView: View {
-    let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    @State private var usedWords = [String]()
+    @State private var rootWord = ""
+    @State private var newWord = ""
     
     var body: some View {
-        List(days, id: \.self) {
-            Text($0)
+        NavigationStack {
+            List {
+                Section {
+                    TextField("Enter your word", text: $newWord)
+                        .textInputAutocapitalization(.never)
+                }
+                
+                Section {
+                    ForEach(usedWords, id: \.self) { word in
+                        HStack {
+                            Image(systemName: "\(word.count).circle")
+                            Text(word)
+                        }
+                    }
+                }
+            }
+            .navigationTitle(rootWord)
+            .onSubmit(addNewWord)
         }
     }
     
-    func getFileContents() {
-        if let fileURL = Bundle.main.url(forResource: "some-file", withExtension: "txt") {
-            if let fileContents = try? String(contentsOf: fileURL) {
-                // loaded the file in to a string.
-            }
+    func addNewWord() {
+        // lowercase and trim the word to ensure that we are not adding duplicates with case differences
+        let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        // exit if remaining text is empty
+        guard answer.count > 0 else { return }
+        
+        // extra validation todo
+        
+        withAnimation {
+            usedWords.insert(answer, at: 0) // inserting at zero makes the new answer appear on top of the list
         }
+        
+        newWord = ""
     }
 }
 
