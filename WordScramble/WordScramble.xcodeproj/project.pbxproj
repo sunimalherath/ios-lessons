@@ -11,6 +11,7 @@
 		A281A8972BEBB3BD00E5A202 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281A8962BEBB3BD00E5A202 /* ContentView.swift */; };
 		A281A8992BEBB3CF00E5A202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A281A8982BEBB3CF00E5A202 /* Assets.xcassets */; };
 		A281A89C2BEBB3CF00E5A202 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A281A89B2BEBB3CF00E5A202 /* Preview Assets.xcassets */; };
+		A281A8A32BF0F2EA00E5A202 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = A281A8A22BF0F2EA00E5A202 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A281A8962BEBB3BD00E5A202 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A281A8982BEBB3CF00E5A202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A281A89B2BEBB3CF00E5A202 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A281A8A22BF0F2EA00E5A202 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = start.txt; path = ../../Resources/WordScramble/start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A281A8942BEBB3BD00E5A202 /* WordScrambleApp.swift */,
 				A281A8962BEBB3BD00E5A202 /* ContentView.swift */,
+				A281A8A22BF0F2EA00E5A202 /* start.txt */,
 				A281A8982BEBB3CF00E5A202 /* Assets.xcassets */,
 				A281A89A2BEBB3CF00E5A202 /* Preview Content */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A281A89C2BEBB3CF00E5A202 /* Preview Assets.xcassets in Resources */,
+				A281A8A32BF0F2EA00E5A202 /* start.txt in Resources */,
 				A281A8992BEBB3CF00E5A202 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
