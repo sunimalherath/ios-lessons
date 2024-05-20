@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AnimationBindings: View {
     @State private var animationAmount = 1.0
+    @State private var spinAnimation = 0.0
     
     var body: some View {
         print(animationAmount)
@@ -25,6 +26,22 @@ struct AnimationBindings: View {
             .foregroundStyle(.white)
             .clipShape(.circle)
             .scaleEffect(animationAmount)
+            
+            Spacer()
+            
+            Button("Tap Me") {
+                withAnimation{
+                    spinAnimation += 360
+                }
+            }
+            .padding(40)
+            .background(.purple)
+            .foregroundStyle(.white)
+            .clipShape(.circle)
+            .rotation3DEffect(
+                .degrees(spinAnimation),
+                axis: (x: 0, y: 1, z: 0)
+            )
         }
     }
 }
