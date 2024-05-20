@@ -30,7 +30,7 @@ struct AnimationBindings: View {
             Spacer()
             
             Button("Tap Me") {
-                withAnimation{
+                withAnimation(.spring(duration: 1, bounce: 0.5)){
                     spinAnimation += 360
                 }
             }
