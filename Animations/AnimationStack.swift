@@ -17,8 +17,9 @@ struct AnimationStack: View {
         .frame(width: 200, height: 200)
         .background(enabled ? .teal : .purple)
         .foregroundStyle(.white)
-        .clipShape(.rect(cornerRadius: enabled ? 60 : 0))
         .animation(.default, value: enabled)
+        .clipShape(.rect(cornerRadius: enabled ? 60 : 0))
+        .animation(.spring(duration: 1, bounce: 0.8), value: enabled) // this animation applies to clipShape
     }
 }
 
