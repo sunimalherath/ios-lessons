@@ -14,6 +14,7 @@
 		A281A8BF2BF4EAD700E5A202 /* BeaconAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281A8BE2BF4EAD700E5A202 /* BeaconAnimationView.swift */; };
 		A281A8C12BFB80F800E5A202 /* AnimationBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281A8C02BFB80F800E5A202 /* AnimationBindings.swift */; };
 		A281A8C32BFF7B3F00E5A202 /* AnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281A8C22BFF7B3F00E5A202 /* AnimationStack.swift */; };
+		A2EB44BB2C036B2400AEE701 /* GestureAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EB44BA2C036B2400AEE701 /* GestureAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A281A8BE2BF4EAD700E5A202 /* BeaconAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconAnimationView.swift; sourceTree = "<group>"; };
 		A281A8C02BFB80F800E5A202 /* AnimationBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBindings.swift; sourceTree = "<group>"; };
 		A281A8C22BFF7B3F00E5A202 /* AnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStack.swift; sourceTree = "<group>"; };
+		A2EB44BA2C036B2400AEE701 /* GestureAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		A281A8A42BF39C5900E5A202 = {
 			isa = PBXGroup;
 			children = (
+				A2EB44BA2C036B2400AEE701 /* GestureAnimations.swift */,
 				A281A8C22BFF7B3F00E5A202 /* AnimationStack.swift */,
 				A281A8C02BFB80F800E5A202 /* AnimationBindings.swift */,
 				A281A8BE2BF4EAD700E5A202 /* BeaconAnimationView.swift */,
@@ -150,6 +153,7 @@
 				A281A8C12BFB80F800E5A202 /* AnimationBindings.swift in Sources */,
 				A281A8B32BF39C5900E5A202 /* ContentView.swift in Sources */,
 				A281A8BF2BF4EAD700E5A202 /* BeaconAnimationView.swift in Sources */,
+				A2EB44BB2C036B2400AEE701 /* GestureAnimations.swift in Sources */,
 				A281A8B12BF39C5900E5A202 /* AnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
