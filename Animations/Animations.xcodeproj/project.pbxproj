@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A268725A2C04B7DF001AEA46 /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26872592C04B7DF001AEA46 /* TransitionAnimation.swift */; };
+		A268725C2C04BBB9001AEA46 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A268725B2C04BBB9001AEA46 /* CustomTransition.swift */; };
 		A281A8B12BF39C5900E5A202 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281A8B02BF39C5900E5A202 /* AnimationsApp.swift */; };
 		A281A8B32BF39C5900E5A202 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A281A8B22BF39C5900E5A202 /* ContentView.swift */; };
 		A281A8B52BF39C5D00E5A202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A281A8B42BF39C5D00E5A202 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		A26872592C04B7DF001AEA46 /* TransitionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionAnimation.swift; sourceTree = "<group>"; };
+		A268725B2C04BBB9001AEA46 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
 		A281A8AD2BF39C5900E5A202 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A281A8B02BF39C5900E5A202 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		A281A8B22BF39C5900E5A202 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		A281A8A42BF39C5900E5A202 = {
 			isa = PBXGroup;
 			children = (
+				A268725B2C04BBB9001AEA46 /* CustomTransition.swift */,
 				A26872592C04B7DF001AEA46 /* TransitionAnimation.swift */,
 				A2EB44BC2C03702000AEE701 /* GuestureAnimationText.swift */,
 				A2EB44BA2C036B2400AEE701 /* GestureAnimations.swift */,
@@ -159,6 +162,7 @@
 				A281A8C12BFB80F800E5A202 /* AnimationBindings.swift in Sources */,
 				A281A8B32BF39C5900E5A202 /* ContentView.swift in Sources */,
 				A281A8BF2BF4EAD700E5A202 /* BeaconAnimationView.swift in Sources */,
+				A268725C2C04BBB9001AEA46 /* CustomTransition.swift in Sources */,
 				A2EB44BB2C036B2400AEE701 /* GestureAnimations.swift in Sources */,
 				A281A8B12BF39C5900E5A202 /* AnimationsApp.swift in Sources */,
 				A2EB44BD2C03702000AEE701 /* GuestureAnimationText.swift in Sources */,
