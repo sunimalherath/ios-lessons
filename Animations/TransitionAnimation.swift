@@ -22,7 +22,8 @@ struct TransitionAnimation: View {
                 Rectangle()
                     .fill(.teal)
                     .frame(width: 200, height: 200)
-                    .transition(.scale)
+                    //.transition(.scale)
+                    .transition(.asymmetric(insertion: .scale, removal: .opacity))
             }
         }
     }
