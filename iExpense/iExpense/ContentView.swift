@@ -7,12 +7,14 @@
 
 import SwiftUI
 
+@Observable
 class User {
     var firstName = "John"
     var lastName = "Doe"
 }
 
 // changing the value in the text field won't change 'user' object if we use a class
+// adding '@Observable' to help @State to notice the property changes. 
 
 //struct User {
 //    var firstName = "John"
