@@ -16,14 +16,16 @@ struct ShowingHidingViews: View {
         }
         .sheet(isPresented: $showingSheet) {
             // content of the sheet
-            SecondView()
+            SecondView(name: "John Doe")
         }
     }
 }
 
 struct SecondView: View {
+    let name: String
+    
     var body: some View {
-        Text("Second view")
+        Text("Hello \(name)")
     }
 }
 
