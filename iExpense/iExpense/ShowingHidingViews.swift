@@ -22,10 +22,17 @@ struct ShowingHidingViews: View {
 }
 
 struct SecondView: View {
+    @Environment(\.dismiss) var dismiss
+    
     let name: String
     
     var body: some View {
-        Text("Hello \(name)")
+        VStack {
+            Text("Hello \(name)")
+            Button("Dismiss") {
+                dismiss()
+            }
+        }
     }
 }
 
