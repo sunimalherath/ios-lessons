@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2BB6BDF2C0B48F900F5E4B0 /* DeletingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BB6BDE2C0B48F900F5E4B0 /* DeletingItems.swift */; };
 		A2CBD1572C09F97800A498CD /* ShowingHidingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CBD1562C09F97800A498CD /* ShowingHidingViews.swift */; };
 		A2D5BC692C0765AE00E382D5 /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D5BC682C0765AE00E382D5 /* iExpenseApp.swift */; };
 		A2D5BC6B2C0765AE00E382D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D5BC6A2C0765AE00E382D5 /* ContentView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2BB6BDE2C0B48F900F5E4B0 /* DeletingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingItems.swift; sourceTree = "<group>"; };
 		A2CBD1562C09F97800A498CD /* ShowingHidingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingHidingViews.swift; sourceTree = "<group>"; };
 		A2D5BC652C0765AE00E382D5 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D5BC682C0765AE00E382D5 /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				A2D5BC6A2C0765AE00E382D5 /* ContentView.swift */,
 				A2D5BC6C2C0765B200E382D5 /* Assets.xcassets */,
 				A2D5BC6E2C0765B200E382D5 /* Preview Content */,
+				A2BB6BDE2C0B48F900F5E4B0 /* DeletingItems.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2BB6BDF2C0B48F900F5E4B0 /* DeletingItems.swift in Sources */,
 				A2CBD1572C09F97800A498CD /* ShowingHidingViews.swift in Sources */,
 				A2D5BC6B2C0765AE00E382D5 /* ContentView.swift in Sources */,
 				A2D5BC692C0765AE00E382D5 /* iExpenseApp.swift in Sources */,
