@@ -17,6 +17,7 @@ struct DeletingItems: View {
                 ForEach(numbers, id: \.self) {
                     Text("Row \($0)")
                 }
+                .onDelete(perform: removeRows)
             }
             
             Button("Add Number") {
@@ -24,6 +25,10 @@ struct DeletingItems: View {
                 currentNumber += 1
             }
         }
+    }
+    
+    func removeRows(at offsets: IndexSet) {
+        numbers.remove(atOffsets: offsets)
     }
 }
 
