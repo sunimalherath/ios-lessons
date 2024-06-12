@@ -24,20 +24,16 @@ struct CardView: View {
     var isFaceUp: Bool
     
     var body: some View {
-        if isFaceUp {
-            ZStack {
-                RoundedRectangle(cornerRadius: 20)
-                    .fill()
-                    .foregroundColor(.white)
-                RoundedRectangle(cornerRadius: 20)
-                    .stroke(lineWidth: 3)
+        ZStack {
+            var cardShape = RoundedRectangle(cornerRadius: 20)
+            
+            if isFaceUp {
+                cardShape.fill().foregroundColor(.white)
+                cardShape.stroke(lineWidth: 3)
                 Text("✈️")
                     .font(.largeTitle)
-            }
-        } else {
-            ZStack {
-                RoundedRectangle(cornerRadius: 20)
-                    .fill()
+            } else {
+                cardShape.fill()
             }
         }
     }
