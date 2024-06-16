@@ -46,3 +46,22 @@ let arr2 = makeArray(of: 10) {
 print(arr2)
 
 // -------------------------------------------------------------------
+
+func doImportantWork(first: ()->Void, second: ()->Void, third: ()->Void) {
+    print("About to start the first...")
+    first()
+    print("About to start the second...")
+    second()
+    print("About to start the third...")
+    third()
+    print("All work has been done!")
+}
+
+doImportantWork {
+    print("This is the first work")
+} second: {
+    print("This is the second work")
+} third: {
+    print("This is the third work")
+}
+
