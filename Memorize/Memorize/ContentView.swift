@@ -12,10 +12,28 @@ struct ContentView: View {
     var emojiCount = 4
     
     var body: some View {
-        HStack {
-            ForEach(emojis[0..<emojiCount], id: \.self) { emoji in
-                CardView(content: emoji)
+        VStack {
+            HStack {
+                ForEach(emojis[0..<emojiCount], id: \.self) { emoji in
+                    CardView(content: emoji)
+                }
             }
+            HStack {
+                Button(action: {}) {
+                    VStack{
+                        Text("Add")
+                        Text("Card")
+                    }
+                }
+                Spacer()
+                Button(action: {}) {
+                    VStack{
+                        Text("Remove")
+                        Text("Card")
+                    }
+                }
+            }
+            .padding(.horizontal)
         }
         .padding(.horizontal)
         .foregroundColor(.teal)
