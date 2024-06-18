@@ -13,9 +13,11 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            LazyVGrid(columns: [GridItem(), GridItem(), GridItem()]) {
-                ForEach(emojis[0..<emojiCount], id: \.self) { emoji in
-                    CardView(content: emoji).aspectRatio(2/3, contentMode: .fit)
+            ScrollView {
+                LazyVGrid(columns: [GridItem(), GridItem(), GridItem()]) {
+                    ForEach(emojis[0..<emojiCount], id: \.self) { emoji in
+                        CardView(content: emoji).aspectRatio(2/3, contentMode: .fit)
+                    }
                 }
             }
             .foregroundColor(.teal)
@@ -62,7 +64,7 @@ struct CardView: View {
             
             if isFaceUp {
                 cardShape.fill().foregroundColor(.white)
-                cardShape.stroke(lineWidth: 3)
+                cardShape.strokeBorder(lineWidth: 3)
                 Text(content).font(.largeTitle)
             } else {
                 cardShape.fill()
