@@ -18,6 +18,7 @@ struct ContentView: View {
                     CardView(content: emoji)
                 }
             }
+            .foregroundColor(.teal)
             HStack {
                 remove
                 Spacer()
@@ -26,8 +27,7 @@ struct ContentView: View {
             .font(.largeTitle)
             .padding(.horizontal)
         }
-        .padding(.horizontal)
-        .foregroundColor(.teal)
+        .padding(.horizontal)        
     }
     
     var remove: some View {
