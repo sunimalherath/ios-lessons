@@ -11,6 +11,7 @@
 		A28749B62C19CE9D00DCD968 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28749B52C19CE9D00DCD968 /* ContentView.swift */; };
 		A28749B82C19CEA500DCD968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28749B72C19CEA500DCD968 /* Assets.xcassets */; };
 		A28749BB2C19CEA500DCD968 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A28749BA2C19CEA500DCD968 /* Preview Assets.xcassets */; };
+		A28749C22C24462F00DCD968 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28749C12C24462F00DCD968 /* MemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A28749B52C19CE9D00DCD968 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A28749B72C19CEA500DCD968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A28749BA2C19CEA500DCD968 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A28749C12C24462F00DCD968 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A28749B32C19CE9D00DCD968 /* MemorizeApp.swift */,
 				A28749B52C19CE9D00DCD968 /* ContentView.swift */,
+				A28749C12C24462F00DCD968 /* MemoryGame.swift */,
 				A28749B72C19CEA500DCD968 /* Assets.xcassets */,
 				A28749B92C19CEA500DCD968 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28749C22C24462F00DCD968 /* MemoryGame.swift in Sources */,
 				A28749B62C19CE9D00DCD968 /* ContentView.swift in Sources */,
 				A28749B42C19CE9D00DCD968 /* MemorizeApp.swift in Sources */,
 			);
