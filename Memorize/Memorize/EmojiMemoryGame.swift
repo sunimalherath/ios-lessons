@@ -12,11 +12,11 @@ class EmojiMemoryGame {
     
     static func createMemoryGame() -> MemoryGame<String> {
         MemoryGame<String>(numberOfPairsOfCards: 4) { pairIndex in
-            EmojiMemoryGame.emojis[pairIndex]
+            emojis[pairIndex] // don't need to use EmojiMemoryGame.emojis[pairIndex] in here.
         }
     }
     
-    private var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
+    private var model: MemoryGame<String> = createMemoryGame() // don't need to use EmojiMemoryGame.createMemoryGame() in here.
     
     var cards: Array<MemoryGame<String>.Card> {
         return model.cards
