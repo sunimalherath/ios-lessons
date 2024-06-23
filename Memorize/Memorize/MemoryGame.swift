@@ -30,3 +30,7 @@ struct MemoryGame<CardContent> {
         var content: CardContent // generics
     }
 }
+
+struct MG {
+    
+}

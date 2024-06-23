@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A22B77602C28CFDF00570119 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B775F2C28CFDF00570119 /* SheetView.swift */; };
 		A2BB6BDF2C0B48F900F5E4B0 /* DeletingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BB6BDE2C0B48F900F5E4B0 /* DeletingItems.swift */; };
 		A2CBD1572C09F97800A498CD /* ShowingHidingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CBD1562C09F97800A498CD /* ShowingHidingViews.swift */; };
 		A2D5BC692C0765AE00E382D5 /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D5BC682C0765AE00E382D5 /* iExpenseApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A22B775F2C28CFDF00570119 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		A2BB6BDE2C0B48F900F5E4B0 /* DeletingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingItems.swift; sourceTree = "<group>"; };
 		A2CBD1562C09F97800A498CD /* ShowingHidingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingHidingViews.swift; sourceTree = "<group>"; };
 		A2D5BC652C0765AE00E382D5 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +41,7 @@
 		A2D5BC5C2C0765AE00E382D5 = {
 			isa = PBXGroup;
 			children = (
+				A22B775F2C28CFDF00570119 /* SheetView.swift */,
 				A2D5BC672C0765AE00E382D5 /* iExpense */,
 				A2D5BC662C0765AE00E382D5 /* Products */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				A2BB6BDF2C0B48F900F5E4B0 /* DeletingItems.swift in Sources */,
 				A2CBD1572C09F97800A498CD /* ShowingHidingViews.swift in Sources */,
+				A22B77602C28CFDF00570119 /* SheetView.swift in Sources */,
 				A2D5BC6B2C0765AE00E382D5 /* ContentView.swift in Sources */,
 				A2D5BC692C0765AE00E382D5 /* iExpenseApp.swift in Sources */,
 			);
