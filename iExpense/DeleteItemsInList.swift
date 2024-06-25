@@ -16,12 +16,17 @@ struct DeleteItemsInList: View {
             ForEach(numbers, id: \.self) {
                 Text("Row \($0)")
             }
+            .onDelete(perform: removeRows)
         }
         
         Button("Add Number") {
             numbers.append(currentNum)
             currentNum += 1
         }
+    }
+    
+    func removeRows(at offset: IndexSet) {
+        numbers.remove(atOffsets: offset)
     }
 }
 
