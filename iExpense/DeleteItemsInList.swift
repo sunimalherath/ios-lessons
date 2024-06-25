@@ -12,17 +12,24 @@ struct DeleteItemsInList: View {
     @State private var currentNum: Int = 1
     
     var body: some View {
-        List {
-            ForEach(numbers, id: \.self) {
-                Text("Row \($0)")
+        NavigationStack {
+            VStack {
+                List {
+                    ForEach(numbers, id: \.self) {
+                        Text("Row \($0)")
+                    }
+                    .onDelete(perform: removeRows)
+                }
+                
+                Button("Add Number") {
+                    numbers.append(currentNum)
+                    currentNum += 1
+                }
             }
-            .onDelete(perform: removeRows)
-        }
-        
-        Button("Add Number") {
-            numbers.append(currentNum)
-            currentNum += 1
-        }
+            .toolbar {
+                EditButton()
+            }
+        }        
     }
     
     func removeRows(at offset: IndexSet) {
