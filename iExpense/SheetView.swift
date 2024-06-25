@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct InfoView: View {
+    @Environment(\.dismiss) var dismiss
+    
     var body: some View {
-        Text("Second View")
+        VStack {
+            Text("Second View")
+            Button("Dismiss") {
+                dismiss()
+            }
+        }
     }
 }
 
