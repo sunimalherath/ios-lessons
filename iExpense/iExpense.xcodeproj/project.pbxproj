@@ -12,6 +12,7 @@
 		A22B77662C2EE55C00570119 /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B77652C2EE55C00570119 /* UserDefaultsView.swift */; };
 		A2A911C72C3188F600E0FAC6 /* ArchiveWithCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A911C62C3188F600E0FAC6 /* ArchiveWithCodable.swift */; };
 		A2BB6BDF2C0B48F900F5E4B0 /* DeletingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BB6BDE2C0B48F900F5E4B0 /* DeletingItems.swift */; };
+		A2BF932F2C32E86000BD17C0 /* ExpenseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF932E2C32E86000BD17C0 /* ExpenseList.swift */; };
 		A2CBD1572C09F97800A498CD /* ShowingHidingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CBD1562C09F97800A498CD /* ShowingHidingViews.swift */; };
 		A2D5BC692C0765AE00E382D5 /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D5BC682C0765AE00E382D5 /* iExpenseApp.swift */; };
 		A2D5BC6B2C0765AE00E382D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D5BC6A2C0765AE00E382D5 /* ContentView.swift */; };
@@ -25,6 +26,7 @@
 		A22B77652C2EE55C00570119 /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
 		A2A911C62C3188F600E0FAC6 /* ArchiveWithCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveWithCodable.swift; sourceTree = "<group>"; };
 		A2BB6BDE2C0B48F900F5E4B0 /* DeletingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingItems.swift; sourceTree = "<group>"; };
+		A2BF932E2C32E86000BD17C0 /* ExpenseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExpenseList.swift; path = iExpense/ExpenseList.swift; sourceTree = "<group>"; };
 		A2CBD1562C09F97800A498CD /* ShowingHidingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingHidingViews.swift; sourceTree = "<group>"; };
 		A2D5BC652C0765AE00E382D5 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D5BC682C0765AE00E382D5 /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		A2D5BC5C2C0765AE00E382D5 = {
 			isa = PBXGroup;
 			children = (
+				A2BF932E2C32E86000BD17C0 /* ExpenseList.swift */,
 				A2D5BC672C0765AE00E382D5 /* iExpense */,
 				A2D5BC662C0765AE00E382D5 /* Products */,
 			);
@@ -159,6 +162,7 @@
 				A2CBD1572C09F97800A498CD /* ShowingHidingViews.swift in Sources */,
 				A22B77602C28CFDF00570119 /* SheetView.swift in Sources */,
 				A2A911C72C3188F600E0FAC6 /* ArchiveWithCodable.swift in Sources */,
+				A2BF932F2C32E86000BD17C0 /* ExpenseList.swift in Sources */,
 				A22B77662C2EE55C00570119 /* UserDefaultsView.swift in Sources */,
 				A2D5BC6B2C0765AE00E382D5 /* ContentView.swift in Sources */,
 				A22B77622C2AF84100570119 /* DeleteItemsInList.swift in Sources */,
