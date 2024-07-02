@@ -29,6 +29,12 @@ struct AddView: View {
                     .keyboardType(.numberPad)
             }
             .navigationTitle("Add New Expense")
+            .toolbar {
+                Button("Save") {
+                    let item: ExpenseItem = ExpenseItem(name: name, type: type, amount: amount)
+                    expenses.items.append(item)
+                }
+            }
         }
     }
 }
