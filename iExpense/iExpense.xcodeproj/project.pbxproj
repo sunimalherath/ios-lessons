@@ -10,6 +10,7 @@
 		A22B77602C28CFDF00570119 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B775F2C28CFDF00570119 /* SheetView.swift */; };
 		A22B77622C2AF84100570119 /* DeleteItemsInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B77612C2AF84100570119 /* DeleteItemsInList.swift */; };
 		A22B77662C2EE55C00570119 /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B77652C2EE55C00570119 /* UserDefaultsView.swift */; };
+		A2A3023A2C34364700B05A7E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A302392C34364700B05A7E /* AddView.swift */; };
 		A2A911C72C3188F600E0FAC6 /* ArchiveWithCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A911C62C3188F600E0FAC6 /* ArchiveWithCodable.swift */; };
 		A2BB6BDF2C0B48F900F5E4B0 /* DeletingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BB6BDE2C0B48F900F5E4B0 /* DeletingItems.swift */; };
 		A2BF932F2C32E86000BD17C0 /* ExpenseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BF932E2C32E86000BD17C0 /* ExpenseList.swift */; };
@@ -24,6 +25,7 @@
 		A22B775F2C28CFDF00570119 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		A22B77612C2AF84100570119 /* DeleteItemsInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteItemsInList.swift; sourceTree = "<group>"; };
 		A22B77652C2EE55C00570119 /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
+		A2A302392C34364700B05A7E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddView.swift; path = iExpense/AddView.swift; sourceTree = "<group>"; };
 		A2A911C62C3188F600E0FAC6 /* ArchiveWithCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveWithCodable.swift; sourceTree = "<group>"; };
 		A2BB6BDE2C0B48F900F5E4B0 /* DeletingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingItems.swift; sourceTree = "<group>"; };
 		A2BF932E2C32E86000BD17C0 /* ExpenseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExpenseList.swift; path = iExpense/ExpenseList.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				A2BF932E2C32E86000BD17C0 /* ExpenseList.swift */,
+				A2A302392C34364700B05A7E /* AddView.swift */,
 				A2D5BC672C0765AE00E382D5 /* iExpense */,
 				A2D5BC662C0765AE00E382D5 /* Products */,
 			);
@@ -160,6 +163,7 @@
 			files = (
 				A2BB6BDF2C0B48F900F5E4B0 /* DeletingItems.swift in Sources */,
 				A2CBD1572C09F97800A498CD /* ShowingHidingViews.swift in Sources */,
+				A2A3023A2C34364700B05A7E /* AddView.swift in Sources */,
 				A22B77602C28CFDF00570119 /* SheetView.swift in Sources */,
 				A2A911C72C3188F600E0FAC6 /* ArchiveWithCodable.swift in Sources */,
 				A2BF932F2C32E86000BD17C0 /* ExpenseList.swift in Sources */,
