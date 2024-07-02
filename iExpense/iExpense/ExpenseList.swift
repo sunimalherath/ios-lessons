@@ -21,6 +21,7 @@ class Expenses {
 
 struct ExpenseList: View {
     @State private var expenses = Expenses()
+    @State private var showingAddExpenseForm = false
     
     var body: some View {
         NavigationStack {
@@ -35,8 +36,11 @@ struct ExpenseList: View {
             .navigationTitle("iExpense")
             .toolbar {
                 Button("Add Expense", systemImage: "plus") {
-                    expenses.items.append(ExpenseItem(name: "Test", type: "Deposit", amount: 100))
+                    showingAddExpenseForm = true
                 }
+            }
+            .sheet(isPresented: $showingAddExpenseForm) {
+                AddView(expenses: expenses)
             }
         }
     }
