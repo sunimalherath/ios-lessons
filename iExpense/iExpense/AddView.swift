@@ -11,6 +11,7 @@ struct AddView: View {
     @State private var name = ""
     @State private var type = "Personal"
     @State private var amount = 0.0
+    @State private var message = ""
     
     let types = ["Business", "Personal"]
     
@@ -18,21 +19,29 @@ struct AddView: View {
     
     var body: some View {
         NavigationStack {
-            Form {
-                TextField("Name", text: $name)
-                Picker("Type", selection: $type) {
-                    ForEach(types, id: \.self) {
-                        Text($0)
+            VStack {
+                Form {
+                    TextField("Name", text: $name)
+                    Picker("Type", selection: $type) {
+                        ForEach(types, id: \.self) {
+                            Text($0)
+                        }
                     }
+                    TextField("Amount", value: $amount, format: .currency(code: "AUD"))
+                        .keyboardType(.numberPad)
                 }
-                TextField("Amount", value: $amount, format: .currency(code: "AUD"))
-                    .keyboardType(.numberPad)
+                Text(message)
+                    .foregroundStyle(.green)
+                    .font(.headline)
+                    .padding()
             }
             .navigationTitle("Add New Expense")
             .toolbar {
                 Button("Save") {
                     let item: ExpenseItem = ExpenseItem(name: name, type: type, amount: amount)
                     expenses.items.append(item)
+                    
+                    self.message = "Record Added!"
                 }
             }
         }
