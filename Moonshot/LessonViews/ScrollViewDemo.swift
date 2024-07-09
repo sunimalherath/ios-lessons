@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ScrollViewDemo: View {
     var body: some View {
-        ScrollView {
-            LazyVStack(spacing: 10) {
+        ScrollView(.horizontal) {
+            LazyHStack(spacing: 10) {
                 ForEach(0..<100) {
                     CustomText("Item \($0)")
                         .font(.title)
