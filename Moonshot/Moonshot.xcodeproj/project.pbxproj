@@ -11,7 +11,7 @@
 		A2AB59A12C3ACE9F0035715D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB59A02C3ACE9F0035715D /* ContentView.swift */; };
 		A2AB59A32C3ACEA30035715D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AB59A22C3ACEA30035715D /* Assets.xcassets */; };
 		A2AB59A62C3ACEA30035715D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AB59A52C3ACEA30035715D /* Preview Assets.xcassets */; };
-		A2AB59AE2C3D6DD80035715D /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB59AD2C3D6DD80035715D /* ScrollView.swift */; };
+		A2AB59AE2C3D6DD80035715D /* ScrollViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB59AD2C3D6DD80035715D /* ScrollViewDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		A2AB59A02C3ACE9F0035715D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2AB59A22C3ACEA30035715D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2AB59A52C3ACEA30035715D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A2AB59AD2C3D6DD80035715D /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		A2AB59AD2C3D6DD80035715D /* ScrollViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		A2AB59AC2C3D6DA40035715D /* LessonViews */ = {
 			isa = PBXGroup;
 			children = (
-				A2AB59AD2C3D6DD80035715D /* ScrollView.swift */,
+				A2AB59AD2C3D6DD80035715D /* ScrollViewDemo.swift */,
 			);
 			path = LessonViews;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			files = (
 				A2AB59A12C3ACE9F0035715D /* ContentView.swift in Sources */,
 				A2AB599F2C3ACE9F0035715D /* MoonshotApp.swift in Sources */,
-				A2AB59AE2C3D6DD80035715D /* ScrollView.swift in Sources */,
+				A2AB59AE2C3D6DD80035715D /* ScrollViewDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
