@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A297C00C2C3EBC350077CB2B /* NavLinkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297C00B2C3EBC350077CB2B /* NavLinkDemo.swift */; };
 		A2AB599F2C3ACE9F0035715D /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB599E2C3ACE9F0035715D /* MoonshotApp.swift */; };
 		A2AB59A12C3ACE9F0035715D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB59A02C3ACE9F0035715D /* ContentView.swift */; };
 		A2AB59A32C3ACEA30035715D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AB59A22C3ACEA30035715D /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A297C00B2C3EBC350077CB2B /* NavLinkDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkDemo.swift; sourceTree = "<group>"; };
 		A2AB599B2C3ACE9F0035715D /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AB599E2C3ACE9F0035715D /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		A2AB59A02C3ACE9F0035715D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				A2AB59AD2C3D6DD80035715D /* ScrollViewDemo.swift */,
+				A297C00B2C3EBC350077CB2B /* NavLinkDemo.swift */,
 			);
 			path = LessonViews;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A297C00C2C3EBC350077CB2B /* NavLinkDemo.swift in Sources */,
 				A2AB59A12C3ACE9F0035715D /* ContentView.swift in Sources */,
 				A2AB599F2C3ACE9F0035715D /* MoonshotApp.swift in Sources */,
 				A2AB59AE2C3D6DD80035715D /* ScrollViewDemo.swift in Sources */,
