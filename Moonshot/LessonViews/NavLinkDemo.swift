@@ -14,10 +14,28 @@ struct NavLinkDemo: View {
                 Text("Detail view")
             }
             .navigationTitle("SwiftUI")
-        }       
+        }
+    }
+}
+
+struct AnotherWay: View {
+    var body: some View {
+        NavigationStack {
+            NavigationLink {
+                Text("Detail View")
+            } label: {
+                VStack {
+                    Text("This is part of..")
+                    Text("..the same link")
+                    Image(systemName: "face.smiling")
+                }
+            }
+            .navigationTitle("SwiftUI")
+        }
     }
 }
 
 #Preview {
-    NavLinkDemo()
+//    NavLinkDemo()
+    AnotherWay()
 }
