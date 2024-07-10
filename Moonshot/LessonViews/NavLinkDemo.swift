@@ -35,7 +35,21 @@ struct AnotherWay: View {
     }
 }
 
+struct UsefulWay: View {
+    var body: some View {
+        NavigationStack {
+            List(0..<100) { row in
+                NavigationLink("Row \(row)") {
+                    Text("Detail View for \(row)")
+                }
+            }
+            .navigationTitle("SwiftUI")
+        }
+    }
+}
+
 #Preview {
 //    NavLinkDemo()
-    AnotherWay()
+//    AnotherWay()
+    UsefulWay()
 }
