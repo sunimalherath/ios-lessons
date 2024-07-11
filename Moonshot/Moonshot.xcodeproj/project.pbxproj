@@ -14,6 +14,7 @@
 		A2AB59A62C3ACEA30035715D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AB59A52C3ACEA30035715D /* Preview Assets.xcassets */; };
 		A2AB59AE2C3D6DD80035715D /* ScrollViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB59AD2C3D6DD80035715D /* ScrollViewDemo.swift */; };
 		A2C2C5272C4008E8009E088A /* HierarchicalCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C2C5262C4008E8009E088A /* HierarchicalCodable.swift */; };
+		A2C2C5292C400CEB009E088A /* ScrollingGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C2C5282C400CEB009E088A /* ScrollingGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A2AB59A52C3ACEA30035715D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2AB59AD2C3D6DD80035715D /* ScrollViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewDemo.swift; sourceTree = "<group>"; };
 		A2C2C5262C4008E8009E088A /* HierarchicalCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalCodable.swift; sourceTree = "<group>"; };
+		A2C2C5282C400CEB009E088A /* ScrollingGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				A2AB59AD2C3D6DD80035715D /* ScrollViewDemo.swift */,
 				A297C00B2C3EBC350077CB2B /* NavLinkDemo.swift */,
 				A2C2C5262C4008E8009E088A /* HierarchicalCodable.swift */,
+				A2C2C5282C400CEB009E088A /* ScrollingGrid.swift */,
 			);
 			path = LessonViews;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				A2C2C5272C4008E8009E088A /* HierarchicalCodable.swift in Sources */,
 				A297C00C2C3EBC350077CB2B /* NavLinkDemo.swift in Sources */,
 				A2AB59A12C3ACE9F0035715D /* ContentView.swift in Sources */,
+				A2C2C5292C400CEB009E088A /* ScrollingGrid.swift in Sources */,
 				A2AB599F2C3ACE9F0035715D /* MoonshotApp.swift in Sources */,
 				A2AB59AE2C3D6DD80035715D /* ScrollViewDemo.swift in Sources */,
 			);
