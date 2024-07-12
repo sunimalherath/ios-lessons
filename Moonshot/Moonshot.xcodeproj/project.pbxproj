@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2954C052C415C3A00F57829 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = A2954C032C415C3900F57829 /* astronauts.json */; };
+		A2954C062C415C3A00F57829 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = A2954C042C415C3A00F57829 /* missions.json */; };
 		A297C00C2C3EBC350077CB2B /* NavLinkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297C00B2C3EBC350077CB2B /* NavLinkDemo.swift */; };
 		A2AB599F2C3ACE9F0035715D /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB599E2C3ACE9F0035715D /* MoonshotApp.swift */; };
 		A2AB59A12C3ACE9F0035715D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AB59A02C3ACE9F0035715D /* ContentView.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2954C032C415C3900F57829 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		A2954C042C415C3A00F57829 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		A297C00B2C3EBC350077CB2B /* NavLinkDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkDemo.swift; sourceTree = "<group>"; };
 		A2AB599B2C3ACE9F0035715D /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AB599E2C3ACE9F0035715D /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 			children = (
 				A2AB599E2C3ACE9F0035715D /* MoonshotApp.swift */,
 				A2AB59A02C3ACE9F0035715D /* ContentView.swift */,
+				A2954C032C415C3900F57829 /* astronauts.json */,
+				A2954C042C415C3A00F57829 /* missions.json */,
 				A2AB59A22C3ACEA30035715D /* Assets.xcassets */,
 				A2AB59A42C3ACEA30035715D /* Preview Content */,
 			);
@@ -145,7 +151,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2954C052C415C3A00F57829 /* astronauts.json in Resources */,
 				A2AB59A62C3ACEA30035715D /* Preview Assets.xcassets in Resources */,
+				A2954C062C415C3A00F57829 /* missions.json in Resources */,
 				A2AB59A32C3ACEA30035715D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
