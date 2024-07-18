@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20AA23A2C4939310029DC86 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20AA2392C4939310029DC86 /* Mission.swift */; };
 		A2954C052C415C3A00F57829 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = A2954C032C415C3900F57829 /* astronauts.json */; };
 		A2954C062C415C3A00F57829 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = A2954C042C415C3A00F57829 /* missions.json */; };
 		A297C00C2C3EBC350077CB2B /* NavLinkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297C00B2C3EBC350077CB2B /* NavLinkDemo.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A20AA2392C4939310029DC86 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		A2954C032C415C3900F57829 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		A2954C042C415C3A00F57829 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		A297C00B2C3EBC350077CB2B /* NavLinkDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinkDemo.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				A2AB59A22C3ACEA30035715D /* Assets.xcassets */,
 				A2AB59A42C3ACEA30035715D /* Preview Content */,
 				A2ACD69A2C42B5D700E81476 /* Astronaut.swift */,
+				A20AA2392C4939310029DC86 /* Mission.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				A2ACD69D2C42B66F00E81476 /* Bundle-Decodable.swift in Sources */,
 				A2ACD69B2C42B5D800E81476 /* Astronaut.swift in Sources */,
 				A2C2C5292C400CEB009E088A /* ScrollingGrid.swift in Sources */,
+				A20AA23A2C4939310029DC86 /* Mission.swift in Sources */,
 				A2AB599F2C3ACE9F0035715D /* MoonshotApp.swift in Sources */,
 				A2AB59AE2C3D6DD80035715D /* ScrollViewDemo.swift in Sources */,
 			);
